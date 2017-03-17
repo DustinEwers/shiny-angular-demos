@@ -1,0 +1,15 @@
+<fieldset>
+    <legend>
+        Make a Ninja
+    </legend>
+    <form>
+      <p>
+        <input pInputText [(ngModel)]="name" name="name" id="characterName" placeholder="Name Eg. Bob, Sally">
+      </p>
+      <p>
+        <p-dropdown placeholder="Weapon" [(ngModel)]="weapon" name="weapon" [options]="weapons">
+        </p-dropdown>
+      </p>
+      <button pButton (click)="buildCharacter()" class="btn btn-default" label="Submit"></button>
+    </form>
+</fieldset>
