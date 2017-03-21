@@ -1,27 +1,27 @@
-<p-panel>
+<p-panel id="stats">
     <p-header>
         Ninja Stats
     </p-header>
     <p>
-        <span>Name: </span>
+        <strong>Name: </strong>
         <span>{{hero.name}}</span>
     </p>
     <p>
-        <span>Weapon: </span>
+        <strong>Weapon: </strong>
         <em><span>{{hero.weapon.name}}</span></em>
         <br />
         <span>{{hero.weapon.description}}</span>
     </p>
     <p>
-        <span>Health: </span>
+        <strong>Health: </strong>
         <span>{{hero.health}} / {{hero.maxHealth}}</span>
     </p>
     <p>
-        <span>Bad Guys killed: </span>
+        <strong>Bad Guys killed: </strong>
         <span>{{hero.badGuysKilled}}</span>
     </p>
     <p>
-        <span>Cash Money: </span>
+        <strong>Cash Money: </strong>
         <span>{{hero.money | currency:'USD':true }}</span>
     </p>
 </p-panel>

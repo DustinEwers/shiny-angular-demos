@@ -1,0 +1,16 @@
+#titleBar{
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: rgba(255,255,255,0.95);
+    background-color: #24292e;
+}
+
+#container{
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left:10px;
+    margin-top:0px;
+    background-color:#EDEDED;
+    box-shadow: 0px 5px 10px -2px #B2B2B2;
+}

@@ -34,7 +34,7 @@ import { IWeapon } from "./weapons";
         reward(): any {
             return {
                 money: Math.floor((Math.random() * 10) * 2),
-                message : `${this.name} dies a horrible death`
+                message : `${this.name} dies a horrible death.`
             };
         }
     }

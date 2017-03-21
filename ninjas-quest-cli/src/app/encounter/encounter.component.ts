@@ -43,7 +43,7 @@ export class EncounterComponent implements OnInit {
             this.hero.money = this.hero.money + reward.money;
             this.hero.badGuysKilled++;
 
-            this.game.setMessage(`You have been dealt ${monsterDamage} damage.${reward.message}You return to base victorious.You also gained $${reward.money.toFixed(2)}`);
+            this.game.setMessage(`You have been dealt ${monsterDamage} damage. ${reward.message} You return to base victorious. You also gained $${reward.money.toFixed(2)}`);
             this.router.navigate(['/home']);
         }
 

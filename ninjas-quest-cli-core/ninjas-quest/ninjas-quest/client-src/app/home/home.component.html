@@ -1,0 +1,17 @@
+<div class="ui-g">
+    <div class="ui-g-8">
+        <h3>Home Base</h3>
+        <p>
+            Your home base is a sweet ninja lair, filled with all the best ninja stuff. Also, excellent wi-fi.
+        </p>
+        <div *ngIf="message" class="alert alert-info" role="alert">
+            {{message}}
+        </div>
+        <br />
+        <button pButton (click)="takeNap()" label="Take a Nap"></button>
+        <button pButton (click)="fightMonster()" label="Fight!"></button>
+    </div>
+    <div class="ui-g-4">
+        <app-stats></app-stats>
+    </div>
+</div>

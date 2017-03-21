@@ -1,0 +1,23 @@
+<div class="ui-g">
+    <div class="ui-g-8">
+        <h3>Fight!</h3>
+        <div *ngIf="actionMessage" class="alert alert-warning" role="alert">
+            <p>
+                {{actionMessage}}
+            </p>
+        </div>
+        <p>
+            <span class="control-label">Current Bad Guy: </span>
+            <span>{{monster.name}}</span>
+        </p>
+        <p>
+            <span class="control-label">Remaining Health: </span>
+            <span id="monsterHealth">{{monster.health}}</span>
+        </p>
+        <button pButton (click)="attack()" label="Attack"></button>
+        <button pButton (click)="runAway()" label="Run Away"></button>
+    </div>
+    <div class="ui-g-4">
+        <app-stats></app-stats>
+    </div>
+</div>

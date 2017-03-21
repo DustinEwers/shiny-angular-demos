@@ -1,1 +1,1 @@
-# shiny-angular-demos
+# Demos and slides for Building Shiny Apps in Angular
