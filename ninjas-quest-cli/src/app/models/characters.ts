@@ -1,5 +1,5 @@
 ﻿
-import { IWeapon } from "./weapons";
+import { IWeapon } from './weapons';
 
     export class Character {
         public health: number;
@@ -24,7 +24,7 @@ import { IWeapon } from "./weapons";
     }
 
     export class Monster extends Character {
-        constructor(_name: string, _health: ()=> number, _weapon: IWeapon) {
+        constructor(_name: string, _health: () => number, _weapon: IWeapon) {
             super();
             this.name = _name;
             this.weapon = _weapon;

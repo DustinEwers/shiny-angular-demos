@@ -5,7 +5,7 @@
         getDamage(): number;
         attack(enemy: string): string;
     }
-    
+
     export enum SwordQuality { Janky, Decent, Awesome }
 
     export class Sword implements IWeapon {

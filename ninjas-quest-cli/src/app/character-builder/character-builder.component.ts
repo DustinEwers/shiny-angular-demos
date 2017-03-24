@@ -17,9 +17,9 @@ export class CharacterBuilderComponent {
 
     constructor(private game: GameService, private router: Router) {
         this.weapons = [];
-        this.weapons.push({label:'Select Weapon', value:null});
-        this.weapons.push({label:'Sword', value:'sword'});
-        this.weapons.push({label:'Ninja Star', value:'ninja-star'});
+        this.weapons.push({label: 'Select Weapon', value: null});
+        this.weapons.push({label: 'Sword', value: 'sword'});
+        this.weapons.push({label: 'Ninja Star', value: 'ninja-star'});
     }
 
     buildCharacter() {
