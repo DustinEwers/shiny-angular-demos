@@ -68,8 +68,8 @@
         private dmgFunction: () => number;
 
         constructor(damage: () => number) {
-            this.name = "Claws";
-            this.description = "Sharp Claws";
+            this.name = 'Claws';
+            this.description = 'Sharp Claws';
             this.dmgFunction = damage;
         }
 

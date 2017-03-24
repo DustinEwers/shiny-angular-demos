@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 import { RouterModule } from '@angular/router';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { CharacterBuilderComponent } from './character-builder/character-builder.component';
@@ -31,6 +32,7 @@ import { InputTextModule, DropdownModule, PanelModule, ButtonModule, MenubarModu
     ButtonModule,
     MenubarModule,
     DropdownModule,
+    BrowserAnimationsModule,
     RouterModule.forRoot([
       { path: '', redirectTo: 'start', pathMatch: 'full' },
       { path: 'home', component: HomeComponent },
